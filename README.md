@@ -1,4 +1,4 @@
-# Car-Market-Place
+# Car-Marketplace
 
 **React JS Full Stack Car Marketplace App** 🚗 
 
