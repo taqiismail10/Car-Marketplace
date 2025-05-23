@@ -7,13 +7,20 @@ const Header = () => {
 
   return (
     <div className="flex justify-between items-center shadow-sm p-5">
-      <img src='/logo.svg' alt='logo' width={150} height={100} />
+      <img
+        src='/logo.svg'
+        alt='logo'
+        width={150}
+        height={100}
+        className="cursor-pointer"
+        onClick={() => window.location.href = '/'}
+      />
 
       <ul className="hidden md:flex gap-16">
-        <li className="font-medium hover:scale-110 transition-all cursor-pointer hover:text-primary">Home</li>
-        <li className="font-medium hover:scale-110 transition-all cursor-pointer hover:text-primary">Search</li>
-        <li className="font-medium hover:scale-110 transition-all cursor-pointer hover:text-primary">New</li>
-        <li className="font-medium hover:scale-110 transition-all cursor-pointer hover:text-primary">Pre-Owned</li>
+        <li className="font-medium hover:scale-110 hover:shadow-xl transition-all cursor-pointer hover:text-primary">Home</li>
+        <li className="font-medium hover:scale-110 hover:shadow-xl transition-all cursor-pointer hover:text-primary">Search</li>
+        <li className="font-medium hover:scale-110 hover:shadow-xl transition-all cursor-pointer hover:text-primary">New</li>
+        <li className="font-medium hover:scale-110 hover:shadow-xl transition-all cursor-pointer hover:text-primary">Pre-Owned</li>
       </ul>
 
       {isSignedIn ?
@@ -22,8 +29,8 @@ const Header = () => {
             appearance={{
               elements: {
                 userButtonAvatarBox: {
-                  width: '40px', // Set desired width
-                  height: '40px', // Set desired height
+                  width: '40px',
+                  height: '40px',
                 },
               },
             }}

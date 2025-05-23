@@ -12,6 +12,18 @@ const CarBrands = [
   { id: 11, name: "Chrysler" }
 ]
 
+const CarCategories = [
+  { id: 1, name: "Sedan", icon: "https://img.icons8.com/?size=100&id=16553&format=png&color=000000" },
+  { id: 2, name: "SUV", icon: "https://img.icons8.com/?size=100&id=16551&format=png&color=000000" },
+  { id: 3, name: "Truck", icon: "https://img.icons8.com/?size=100&id=49793&format=png&color=000000" },
+  { id: 4, name: "Convertible", icon: "https://img.icons8.com/?size=100&id=16554&format=png&color=000000" },
+  { id: 5, name: "Hatchback", icon: "https://img.icons8.com/?size=100&id=e4PrFZ2KbaBk&format=png&color=000000" },
+  { id: 6, name: "Van", icon: "https://img.icons8.com/?size=100&id=30485&format=png&color=000000" },
+  { id: 7, name: "Wagon", icon: "https://img.icons8.com/?size=100&id=xzcTvCE79OR7&format=png&color=000000" },
+  { id: 8, name: "Luxury", icon: "https://img.icons8.com/?size=100&id=16549&format=png&color=000000" },
+  { id: 9, name: "Sports", icon: "https://img.icons8.com/?size=100&id=62520&format=png&color=000000" }
+]
+
 const Pricing = [
   { id: 1, name: "Under $10,000" },
   { id: 2, name: "$10,000 - $20,000" },
@@ -23,5 +35,6 @@ const Pricing = [
 
 export default {
   CarBrands,
-  Pricing
+  Pricing,
+  CarCategories
 }
