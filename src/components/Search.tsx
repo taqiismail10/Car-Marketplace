@@ -13,7 +13,7 @@ const Search = () => {
   return (
     <div className="p-2 md:p-5 bg-white rounded-md md:rounded-full flex-col md:flex md:flex-row gap-10 px-5 items-center w-full md:w-max">
       <Select>
-        <SelectTrigger className="outline-none md:border-none w-full shadow-none text-lg">
+        <SelectTrigger className="outline-none md:border-none w-full shadow-none text-lg hover:scale-103 transition-all cursor-pointer">
           <SelectValue placeholder="Cars" />
         </SelectTrigger>
         <SelectContent className="bg-white">
@@ -24,7 +24,7 @@ const Search = () => {
       <Separator orientation="vertical" className="hidden md:block" />
 
       <Select>
-        <SelectTrigger className="outline-none md:border-none w-full shadow-none text-lg">
+        <SelectTrigger className="outline-none md:border-none w-full shadow-none text-lg hover:scale-103 transition-all cursor-pointer">
           <SelectValue placeholder="Car Brands" />
         </SelectTrigger>
         <SelectContent className="bg-white">
@@ -38,7 +38,7 @@ const Search = () => {
       <Separator orientation="vertical" className="hidden md:block" />
 
       <Select>
-        <SelectTrigger className="outline-none md:border-none w-full shadow-none text-lg">
+        <SelectTrigger className="outline-none md:border-none w-full shadow-none text-lg hover:scale-103 transition-all cursor-pointer">
           <SelectValue placeholder="Pricing" />
         </SelectTrigger>
         <SelectContent className="bg-white">
