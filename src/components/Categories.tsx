@@ -2,7 +2,7 @@ import Data from "@/Shared/Data";
 
 const Categories = () => {
   return (
-    <div className="mt-50 mb-10">
+    <div className="mt-3 sm:mt-10 md:mt-20 lg:mt-36 mb-10">
       <h2 className="font-bold text-3xl text-center mb-7">Car Categories</h2>
       <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 gap-4 px-20">
         {Data.CarCategories.map(category => (
