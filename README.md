@@ -1,6 +1,6 @@
 # Car-Marketplace
 
-**React JS Full Stack Car Marketplace App** 🚗 
+## **React JS Full Stack Car Marketplace App** 🚗 
 
 Welcome to the ultimate guide on building a Full Stack Car Marketplace App! This project demonstrates how to create a responsive, high-performance marketplace using the following technologies:
 
@@ -9,7 +9,7 @@ Welcome to the ultimate guide on building a Full Stack Car Marketplace App! This
 - **Authentication**: Clerk
 - **Real-time Chat**: Sendbird
 
-## Features
+## **Features**
 
 - User authentication with Clerk
 - Search functionality for cars
