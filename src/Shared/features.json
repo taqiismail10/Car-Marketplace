@@ -1,0 +1,96 @@
+{
+"features":[
+  {
+    "label": "Sunroof",
+    "name": "sunroof",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Leather Seats",
+    "name": "leather_seats",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Bluetooth",
+    "name": "bluetooth",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Backup Camera",
+    "name": "backup_camera",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Heated Seats",
+    "name": "heated_seats",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Apple CarPlay",
+    "name": "apple_carplay",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Android Auto",
+    "name": "android_auto",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Alloy Wheels",
+    "name": "alloy_wheels",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Parking Sensors",
+    "name": "parking_sensors",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Navigation System",
+    "name": "navigation_system",
+    "type": "checkbox",
+    "checked": false
+  },
+  {
+    "label": "Brake Assist",
+    "name": "brakeAssist",
+    "type": "checkbox"
+  },
+  {
+    "label": "Air Conditioner",
+    "name": "airConditioner",
+    "type": "checkbox"
+  },
+  {
+    "label": "Heater",
+    "name": "heater",
+    "type": "checkbox"
+  },
+  {
+    "label": "Touchscreen",
+    "name": "touchscreen",
+    "type": "checkbox"
+  },
+  {
+    "label": "Tachometer",
+    "name": "tachometer",
+    "type": "checkbox"
+  },
+  {
+    "label": "Antilock Braking",
+    "name": "antilockBraking",
+    "type": "checkbox"
+  }
+]
+
+
+}

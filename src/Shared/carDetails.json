@@ -1,0 +1,86 @@
+{
+  "carDetails": [
+    {
+      "label": "Listing Title",
+      "name": "listingTitle",
+      "fieldType": "text",
+      "required": true,
+      "column": 2,
+      "icon": "FaClipboardList"
+    },
+    {
+      "label": "Tagline",
+      "name": "tagline",
+      "fieldType": "text",
+      "required": false,
+      "column": 2,
+      "icon": "FaTag"
+    },
+    {
+      "label": "Make",
+      "name": "make",
+      "fieldType": "text",
+      "required": true,
+      "column": 1,
+      "icon": "FaCar"
+    },
+    {
+      "label": "Model",
+      "name": "model",
+      "fieldType": "text",
+      "required": true,
+      "column": 1,
+      "icon": "FaCarSide"
+    },
+    {
+      "label": "Year",
+      "name": "year",
+      "fieldType": "number",
+      "required": true,
+      "column": 1,
+      "icon": "FaCalendarAlt"
+    },
+    {
+      "label": "Mileage",
+      "name": "mileage",
+      "fieldType": "number",
+      "required": true,
+      "column": 1,
+      "icon": "FaTachometerAlt"
+    },
+    {
+      "label": "Price",
+      "name": "price",
+      "fieldType": "number",
+      "required": true,
+      "column": 2,
+      "icon": "FaDollarSign"
+    },
+    {
+      "label": "Description",
+      "name": "description",
+      "fieldType": "textarea",
+      "required": false,
+      "column": 2,
+      "icon": "FaAlignLeft"
+    },
+    {
+      "label": "Condition",
+      "name": "condition",
+      "fieldType": "select",
+      "options": ["New", "Used", "Certified Pre-Owned"],
+      "required": true,
+      "column": 1,
+      "icon": "FaCheckCircle"
+    },
+    {
+      "label": "Fuel Type",
+      "name": "fuelType",
+      "fieldType": "select",
+      "options": ["Petrol", "Diesel", "Electric", "Hybrid"],
+      "required": true,
+      "column": 1,
+      "icon": "FaGasPump"
+    }
+  ]
+}

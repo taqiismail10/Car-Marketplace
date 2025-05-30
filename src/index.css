@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+
+
+
 :root {
 	--primary: 234 82% 60%; /* HSL for #405ef2 */
 	--primary-foreground: 0 0% 100%;

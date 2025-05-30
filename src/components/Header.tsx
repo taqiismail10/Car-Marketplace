@@ -1,5 +1,6 @@
 import { UserButton, useUser } from "@clerk/clerk-react"
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -38,7 +39,9 @@ const Header = () => {
           <Button className="bg-primary text-primary-foreground">Submit Listing</Button>
         </div>
         :
+        <Link to={'/Profile/Addlisting'}>
         <Button className="bg-primary text-primary-foreground">Submit Listing</Button>
+        </Link>
       }
     </div>
   )
