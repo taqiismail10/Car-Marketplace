@@ -6,6 +6,7 @@ import Home from './home'
 import Contact from './contact'
 import { ClerkProvider } from '@clerk/clerk-react'
 
+
 const router = createBrowserRouter([
   {
     path: '/',
